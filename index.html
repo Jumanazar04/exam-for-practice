@@ -64,6 +64,92 @@
             </div>
         </div>
     </header>
+    <main>
+        <section>
+            <div class="container section-cards">
+                <div class="section-card">
+                    <img src="./images/Coin.png" alt="Coin">
+                    <p>Накапливайте, принося пользу обществу</p>
+                </div>
+                <div class="section-card">
+                    <img src="./images/Wallet.png" alt="Coin">
+                    <p>Зарабатывайте честно и справедливо</p>
+                </div>
+                <div class="section-card">
+                    <img src="./images/ChartBar.png" alt="Coin">
+                    <p>Вкладывайте в реальные проверенные сделки</p>
+                </div>
+                <div class="section-card">
+                    <img src="./images/ShieldChevron.png" alt="Coin">
+                    <p>Обеспечьте вложения надежными активами</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="calculate">
+                    <h2>Рассчитай свои накопления и доход</h2>
+                    <div class="slider-main-calculate">
+                        <div class="slider-calculate">
+                            <div>
+                                <div class="slider-summa">
+                                    <p class="summa-vkladka">
+                                        Сумма вклада
+                                    </p>
+                                    <p class="summa">
+                                        1 000 000 ₽
+                                    </p>
+                                </div>
+                                <input type="range" id="slider1" min="0" max="100" value="40">
+                            </div>
+                            <div>
+                                <div class="slider-summa">
+                                    <p class="summa-vkladka">
+                                        Срок инвестирования
+                                    </p>
+                                    <p class="summa">
+                                        24 месяца
+                                    </p>
+                                </div>
+                                <input type="range" id="slider1" min="0" max="100" value="60">
+                            </div>
+                            <div class="slider-checkbox">
+                                <p>
+                                    Порядок выплаты дохода
+                                </p>
+                                <div class="checkbox-btns">
+                                    <button>
+                            <input type="checkbox" ><p>Ежемесячно</p>
+                                    </button>
+                                    <button disabled>
+                            <input disabled type="checkbox" ><p>В конце срока</p>
+                                    </button>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="slider-summa">
+                                    <p class="summa-vkladka">
+                                        Пополнение вклада
+                                    </p>
+                                    <p class="summa">
+                                        30 000 ₽ /в месяц
+                                    </p>
+                                </div>
+                                <input type="range" id="slider1" min="0" max="100" value="20">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="chart-container">
+                                <canvas id="lineChart" width="400" height="400"></canvas>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+        </section>
+    </main>
     
 
     
