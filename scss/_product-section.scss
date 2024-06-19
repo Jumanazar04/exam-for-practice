@@ -1,0 +1,19 @@
+.products-section{
+    display: flex;
+    margin: 50px 0;
+    gap: 50px;
+    .product-1{
+        max-width: 40%;
+
+        h2{
+            font-size: 44px;
+            font-weight: 700;
+            line-height: 48.4px;
+            margin-bottom: 40px;
+        }
+    }
+
+    .product-2{
+        max-width: 60%;
+    }
+}

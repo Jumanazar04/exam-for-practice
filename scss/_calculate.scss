@@ -55,6 +55,7 @@
         padding: 5px 10px;
         border-radius: 10px 0 10px 0;
         background-color: white;
+        border:  none;
     }
 
     input{
@@ -64,11 +65,39 @@
     }
 }
 
-.chart-container {
-    width: 80%;
-    max-width: 500px;
-    background-color: #ffffff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+.slider-main-calculate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+        width: 390px;
+    }
+
+    .section-main-cakculate-3{
+        width: 310px;
+        padding: 50px;
+        border-radius: 0 0 30px 0;
+        background-color: #ffff;
+
+        
+         
+        p{
+            color: #355DFB;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 39.6px;
+            margin: 20px 0 0 0;
+        }
+
+        span{
+            padding: 0;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 15.4px;
+            margin: 0 0 20px 0;
+        }
+
+
+    }
 }
