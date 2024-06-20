@@ -454,4 +454,31 @@ input[type=checkbox] {
   background: #ffffff;
   color: #0000de;
   border: none;
+}
+
+.application-section {
+  padding: 40px;
+  border-radius: 64px 6px 64px 6px;
+  box-shadow: 1px 3px 35px 0px rgba(0, 0, 0, 0.75);
+  margin: 80px 0;
+}
+.application-section h2 {
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 37.4px;
+}
+
+.application-card-1 {
+  display: flex;
+  width: 45%;
+}
+.application-card-1 input {
+  width: 45%;
+  padding: 8px;
+  border-radius: 8px;
+}
+.application-card-1 .application-card-left {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
