@@ -1,0 +1,79 @@
+.personal-cards{
+    display: flex;
+    justify-content: space-between;
+
+    .personal-card-1{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 405px;
+        height: 565px;
+        background: #F0F4F8;
+        padding: 0 25px;
+        margin: 100px 0;
+        border-radius: 6px;
+
+        img{
+            margin-top: -150px;
+        }
+
+        span{
+            color: #79A6C3;
+            font-size: 14px;
+            line-height: 15.4px;
+        }
+
+        h3{
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 26.4px;
+        }
+
+        .personal-card-1-1{
+            display: flex;
+            gap: 30px;
+
+            h4{
+                color: #355DFB;
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 39.6px;
+            }
+
+            span{
+                color: black;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 15.4px;
+            }
+        }
+
+        p{
+            color: #6E9BB8;
+            font-size: 16px;
+            line-height: 22.4px;
+        }
+
+       
+
+    }
+}
+
+.personal-btns-1{
+    width: 166px;
+    height: 48px;
+    border-radius: 20px 0px 20px 0px;
+    background: #0000de;    
+    color: white;
+    border: none;
+    margin-right: 10px;
+}
+
+.personal-btns-2{
+    width: 166px;
+    height: 48px;
+    border-radius: 20px 0px 20px 0px;
+    background: #ffffff;    
+    color: #0000de;
+    border: none;   
+}
